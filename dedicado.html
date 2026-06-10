@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidor Dedicado FiveM | Lanzoni Host</title>
+    <meta name="description" content="Servidor dedicado exclusivo para FiveM com hardware de ponta e suporte VIP.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-server logo-icon"></i>
+                LANZONI<span>HOST</span>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Início</a>
+                
+                <!-- Dropdown Planos FiveM -->
+                <div class="dropdown">
+                    <button class="dropdown-btn" id="dropdownBtn" type="button">
+                        <i class="fa-solid fa-crown" style="color: #fbbf24;"></i> Planos FiveM
+                        <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i>
+                    </button>
+                    <div class="dropdown-menu" id="dropdownMenu">
+                        <a href="fivem.html"><i class="fa-solid fa-server"></i> Hospedagem VPS</a>
+                        <a href="connect.html"><i class="fa-solid fa-globe"></i> Connect Personalizado</a>
+                        <a href="keys.html"><i class="fa-solid fa-key"></i> Keys FiveM</a>
+                        <a href="dedicado.html"><i class="fa-solid fa-server"></i> Servidor Dedicado</a>
+                    </div>
+                </div>
+
+                <a href="https://discord.gg/SEU_LINK" target="_blank" class="nav-link">
+                    <i class="fa-brands fa-discord"></i> Discord
+                </a>
+                <a href="#area-cliente" class="btn-account">
+                    <i class="fa-solid fa-user"></i> Acessar Conta
+                </a>
+            </nav>
+            <button class="mobile-toggle" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO DEDICADO -->
+    <section class="hero-dedicado">
+        <div class="hero-content container">
+            <div class="badge-gold animate-on-scroll">
+                <i class="fa-solid fa-crown"></i> PREMIUM
+            </div>
+            <h1 class="animate-on-scroll animate-delay-1">
+                Servidor <span class="highlight">Dedicado</span> FiveM
+            </h1>
+            <p class="animate-on-scroll animate-delay-2">
+                Hardware 100% exclusivo para sua cidade. Máximo desempenho, recursos personalizados e ambiente isolado para projetos de grande porte.
+            </p>
+            <div class="hero-buttons animate-on-scroll animate-delay-3">
+                <a href="https://discord.gg/SEU_LINK" target="_blank" class="btn btn-primary btn-large">
+                    <i class="fa-solid fa-ticket"></i> Solicitar Orçamento
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- POR QUE DEDICADO -->
+    <section class="dedicado-benefits">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Por que escolher um Dedicado?</h2>
+            <p class="section-subtitle animate-on-scroll">Performance máxima sem compartilhamento de recursos</p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h3>Hardware Exclusivo</h3>
+                    <p>Nenhum compartilhamento de recursos. Performance pura e dedicada 100% ao seu servidor.</p>
+                </div>
+                <div class="benefit-card animate-on-scroll animate-delay-1">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3>Máximo Desempenho</h3>
+                    <p>CPU dedicada, RAM isolada e NVMe de alta velocidade para a melhor experiência dos jogadores.</p>
+                </div>
+                <div class="benefit-card animate-on-scroll animate-delay-2">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-sliders"></i>
+                    </div>
+                    <h3>Recursos Personalizados</h3>
+                    <p>Escolha exatamente o que seu projeto precisa: RAM, CPU, armazenamento e localização.</p>
+                </div>
+                <div class="benefit-card animate-on-scroll animate-delay-3">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <h3>Ambiente Isolado</h3>
+                    <p>Segurança máxima e estabilidade garantida. Seu servidor em um ambiente totalmente isolado.</p>
+                </div>
+                <div class="benefit-card animate-on-scroll animate-delay-4">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <h3>Suporte VIP</h3>
+                    <p>Atendimento prioritário com especialista em FiveM. Resposta rápida e solução eficiente.</p>
+                </div>
+                <div class="benefit-card animate-on-scroll animate-delay-5">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3>Backups Diários</h3>
+                    <p>Seus dados sempre protegidos com backups automáticos e restauração fácil a qualquer momento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ESPECIFICAÇÕES -->
+    <section class="dedicado-specs">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Especificações Técnicas</h2>
+            <p class="section-subtitle animate-on-scroll">Hardware de última geração para seu projeto</p>
+            
+            <div class="specs-grid">
+                <div class="spec-card animate-on-scroll">
+                    <div class="spec-icon">
+                        <i class="fa-brands fa-amd"></i>
+                    </div>
+                    <h3>Processador</h3>
+                    <p>AMD Ryzen 9 7950X ou superior</p>
+                </div>
+                <div class="spec-card animate-on-scroll animate-delay-1">
+                    <div class="spec-icon">
+                        <i class="fa-solid fa-memory"></i>
+                    </div>
+                    <h3>Memória RAM</h3>
+                    <p>32GB+ DDR4 dedicada</p>
+                </div>
+                <div class="spec-card animate-on-scroll animate-delay-2">
+                    <div class="spec-icon">
+                        <i class="fa-solid fa-hard-drive"></i>
+                    </div>
+                    <h3>Armazenamento</h3>
+                    <p>SSD NVMe de alta velocidade</p>
+                </div>
+                <div class="spec-card animate-on-scroll animate-delay-3">
+                    <div class="spec-icon">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <h3>Rede</h3>
+                    <p>10 Gbps com proteção DDoS</p>
+                </div>
+                <div class="spec-card animate-on-scroll animate-delay-4">
+                    <div class="spec-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <h3>Localização</h3>
+                    <p>São Paulo - Brasil</p>
+                </div>
+                <div class="spec-card animate-on-scroll animate-delay-5">
+                    <div class="spec-icon">
+                        <i class="fa-brands fa-windows"></i>
+                    </div>
+                    <h3>Sistema Operacional</h3>
+                    <p>Windows Server 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARA QUEM É -->
+    <section class="dedicado-para-quem">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Para quem é o Servidor Dedicado?</h2>
+            <p class="section-subtitle animate-on-scroll">Ideal para projetos que precisam de máxima performance</p>
+            
+            <div class="para-quem-grid">
+                <div class="para-quem-card animate-on-scroll">
+                    <div class="para-quem-icon">
+                        <i class="fa-solid fa-city"></i>
+                    </div>
+                    <h3>Cidades Grandes</h3>
+                    <p>Servidores com 100+ jogadores simultâneos que precisam de recursos robustos.</p>
+                </div>
+                <div class="para-quem-card animate-on-scroll animate-delay-1">
+                    <div class="para-quem-icon">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <h3>Redes de Servidores</h3>
+                    <p>Empresas que gerenciam múltiplas cidades e precisam de infraestrutura centralizada.</p>
+                </div>
+                <div class="para-quem-card animate-on-scroll animate-delay-2">
+                    <div class="para-quem-icon">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <h3>Projetos Ambiciosos</h3>
+                    <p>Cidades com muitos scripts personalizados, mods e recursos que exigem alta performance.</p>
+                </div>
+                <div class="para-quem-card animate-on-scroll animate-delay-3">
+                    <div class="para-quem-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3>Segurança Máxima</h3>
+                    <p>Projetos que sofrem ataques constantes e precisam de isolamento total.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA ORÇAMENTO -->
+    <section class="cta-dedicado">
+        <div class="container">
+            <div class="cta-box animate-on-scroll">
+                <div class="badge-gold">
+                    <i class="fa-solid fa-crown"></i> ORÇAMENTO PERSONALIZADO
+                </div>
+                <h2>Pronto para elevar sua cidade ao próximo nível?</h2>
+                <p>Cada projeto é único. Fale com nossa equipe e receba uma proposta sob medida para sua cidade.</p>
+                <a href="https://discord.gg/SEU_LINK" target="_blank" class="btn btn-primary btn-large">
+                    <i class="fa-solid fa-ticket"></i> Abrir Ticket no Discord
+                </a>
+                <p class="cta-note">Resposta em até 2 horas durante o horário comercial.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ DEDICADO -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Perguntas Frequentes</h2>
+            <div class="faq-grid">
+                <div class="faq-item animate-on-scroll">
+                    <h3><i class="fa-solid fa-circle-question"></i> Qual a diferença entre VPS e Dedicado?</h3>
+                    <p>VPS compartilha recursos com outros servidores. Dedicado é 100% exclusivo para você, com performance máxima e sem interferências.</p>
+                </div>
+                <div class="faq-item animate-on-scroll animate-delay-1">
+                    <h3><i class="fa-solid fa-circle-question"></i> Quanto tempo leva para configurar?</h3>
+                    <p>A configuração inicial leva de 24 a 48 horas após a aprovação do orçamento e pagamento.</p>
+                </div>
+                <div class="faq-item animate-on-scroll animate-delay-2">
+                    <h3><i class="fa-solid fa-circle-question"></i> Posso fazer upgrade depois?</h3>
+                    <p>Sim! Você pode solicitar upgrade de hardware a qualquer momento. Nossa equipe faz a migração sem downtime.</p>
+                </div>
+                <div class="faq-item animate-on-scroll animate-delay-3">
+                    <h3><i class="fa-solid fa-circle-question"></i> O suporte é diferente?</h3>
+                    <p>Sim! Clientes de dedicado têm suporte VIP prioritário com atendimento em até 2 horas durante horário comercial.</p>
+                </div>
+                <div class="faq-item animate-on-scroll animate-delay-4">
+                    <h3><i class="fa-solid fa-circle-question"></i> Posso escolher o hardware?</h3>
+                    <p>Sim! Trabalhamos com configurações personalizadas. Você escolhe RAM, CPU, armazenamento e localização.</p>
+                </div>
+                <div class="faq-item animate-on-scroll animate-delay-5">
+                    <h3><i class="fa-solid fa-circle-question"></i> Qual o preço mínimo?</h3>
+                    <p>Servidores dedicados começam em R$ 499,90/mês. Entre em contato para um orçamento personalizado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <i class="fa-solid fa-server logo-icon"></i>
+                    LANZONI<span>HOST</span>
+                </div>
+                <p>Infraestrutura gamer de alta performance para servidores FiveM. Datacenter em São Paulo com AMD Ryzen 9 e SSD NVMe.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <a href="index.html">Início</a>
+                <a href="fivem.html">Planos FiveM</a>
+                <a href="connect.html">Connect</a>
+                <a href="keys.html">Keys</a>
+                <a href="dedicado.html">Dedicado</a>
+            </div>
+            <div class="footer-links">
+                <h4>Suporte</h4>
+                <a href="https://discord.gg/SEU_LINK" target="_blank"><i class="fa-brands fa-discord"></i> Discord</a>
+                <a href="https://wa.me/5511999999999" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                <a href="#">Termos de Uso</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Lanzoni Host. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

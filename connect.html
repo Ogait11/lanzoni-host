@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Personalizado | Lanzoni Host</title>
+    <meta name="description" content="Connect personalizado grátis ou domínio .com.br próprio para seu servidor FiveM.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-server logo-icon"></i>
+                LANZONI<span>HOST</span>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Início</a>
+                
+                <!-- Dropdown Planos FiveM -->
+                <div class="dropdown">
+                    <button class="dropdown-btn" id="dropdownBtn" type="button">
+                        <i class="fa-solid fa-crown" style="color: #fbbf24;"></i> Planos FiveM
+                        <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i>
+                    </button>
+                    <div class="dropdown-menu" id="dropdownMenu">
+                        <a href="fivem.html"><i class="fa-solid fa-server"></i> Hospedagem VPS</a>
+                        <a href="connect.html"><i class="fa-solid fa-globe"></i> Connect Personalizado</a>
+                        <a href="keys.html"><i class="fa-solid fa-key"></i> Keys FiveM</a>
+                        <a href="dedicado.html"><i class="fa-solid fa-server"></i> Servidor Dedicado</a>
+                    </div>
+                </div>
+
+                <a href="https://discord.gg/SEU_LINK" target="_blank" class="nav-link">
+                    <i class="fa-brands fa-discord"></i> Discord
+                </a>
+                <a href="#area-cliente" class="btn-account">
+                    <i class="fa-solid fa-user"></i> Acessar Conta
+                </a>
+            </nav>
+            <button class="mobile-toggle" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO CONNECT -->
+    <section class="hero-connect">
+        <div class="hero-content container">
+            <div class="badge-amd animate-on-scroll">
+                <i class="fa-solid fa-globe"></i> CONNECT PERSONALIZADO
+            </div>
+            <h1 class="animate-on-scroll animate-delay-1">
+                Conecte sua cidade com <span class="highlight">Profissionalismo</span>
+            </h1>
+            <p class="animate-on-scroll animate-delay-2">
+                Connect gratuito .lanzonihost.com ou domínio .com.br próprio. 
+                Escolha o endereço perfeito para seus jogadores.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONNECT OPTIONS -->
+    <section class="connect-options">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Escolha seu Connect</h2>
+            <p class="section-subtitle animate-on-scroll">Duas opções para profissionalizar seu servidor</p>
+            
+            <div class="connect-cards-grid">
+                <!-- Connect Grátis -->
+                <div class="connect-option-card animate-on-scroll">
+                    <div class="badge-free">
+                        <i class="fa-solid fa-gift"></i> GRÁTIS
+                    </div>
+                    <div class="connect-icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h3>Connect .lanzonihost.com</h3>
+                    <p class="connect-price">R$ 0,00<span>/mês</span></p>
+                    <ul class="connect-features-list">
+                        <li><i class="fa-solid fa-check"></i> Subdomínio personalizado</li>
+                        <li><i class="fa-solid fa-check"></i> Ativação instantânea</li>
+                        <li><i class="fa-solid fa-check"></i> Sem custo de renovação</li>
+                        <li><i class="fa-solid fa-check"></i> Altere quando quiser</li>
+                        <li><i class="fa-solid fa-check"></i> Incluso em todos os planos</li>
+                    </ul>
+                    <div class="connect-example-box">
+                        <p>Exemplo:</p>
+                        <code>connect suacidade.lanzonihost.com</code>
+                    </div>
+                    <a href="fivem.html" class="btn btn-outline btn-full">
+                        <i class="fa-solid fa-server"></i> Contratar VPS
+                    </a>
+                </div>
+
+                <!-- Domínio Próprio -->
+                <div class="connect-option-card popular animate-on-scroll animate-delay-1">
+                    <div class="badge">
+                        <i class="fa-solid fa-star"></i> PROFISSIONAL
+                    </div>
+                    <div class="connect-icon">
+                        <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                    <h3>Domínio .com.br Próprio</h3>
+                    <p class="connect-price">R$ 59,90<span>/ano</span></p>
+                    <ul class="connect-features-list">
+                        <li><i class="fa-solid fa-check"></i> Domínio exclusivo seu</li>
+                        <li><i class="fa-solid fa-check"></i> Registro completo .com.br</li>
+                        <li><i class="fa-solid fa-check"></i> Configuração DNS inclusa</li>
+                        <li><i class="fa-solid fa-check"></i> Certificado SSL grátis</li>
+                        <li><i class="fa-solid fa-check"></i> Suporte técnico 24/7</li>
+                        <li><i class="fa-solid fa-check"></i> Renovação anual automática</li>
+                    </ul>
+                    <div class="connect-example-box">
+                        <p>Exemplo:</p>
+                        <code>connect suacidade.com.br</code>
+                    </div>
+                    <a href="https://discord.gg/SEU_LINK" target="_blank" class="btn btn-primary btn-full">
+                        <i class="fa-solid fa-cart-shopping"></i> Registrar Domínio
+                    </a>
+                </div>
+            </div>
+
+            <!-- Preview Interativo -->
+            <div class="connect-preview-box animate-on-scroll">
+                <h3><i class="fa-solid fa-eye"></i> Preview do seu Connect</h3>
+                <p>Digite o nome da sua cidade e veja como ficará:</p>
+                <div class="connect-input-group">
+                    <div class="connect-input-wrapper">
+                        <span class="connect-prefix">connect</span>
+                        <input type="text" id="connectName" placeholder="suacidade" maxlength="20">
+                        <span class="connect-domain">.lanzonihost.com</span>
+                    </div>
+                    <div class="connect-result">
+                        <p>Seu connect ficará:</p>
+                        <strong id="connectPreview">connect suacidade.lanzonihost.com</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section class="connect-benefits-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Por que ter um Connect Personalizado?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-fingerprint"></i>
+                    </div>
+                    <h3>Fácil de Lembrar</h3>
+                    <p>Seus jogadores não precisam decorar IPs complicados. Um nome simples é muito mais fácil!</p>
+                </div>
+                <div class="benefit-card animate-on-scroll animate-delay-1">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <h3>Mais Profissional</h3>
+                    <p>Um domínio próprio passa credibilidade e mostra que sua cidade é levada a sério.</p>
+                </div>
+                <div class="benefit-card animate-on-scroll animate-delay-2">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3>Mais Seguro</h3>
+                    <p>Domínios próprios têm proteção SSL e são mais confiáveis para os jogadores.</p>
+                </div>
+                <div class="benefit-card animate-on-scroll animate-delay-3">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-rotate"></i>
+                    </div>
+                    <h3>Mude Quando Quiser</h3>
+                    <p>Se trocar de servidor, mantém o mesmo connect. Seus jogadores nem percebem!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Perguntas Frequentes</h2>
+            <div class="faq-grid">
+                <div class="faq-item animate-on-scroll">
+                    <h3><i class="fa-solid fa-circle-question"></i> O connect .lanzonihost.com é realmente grátis?</h3>
+                    <p>Sim! Todos os planos incluem um subdomínio gratuito como <code>suacidade.lanzonihost.com</code>. Você pode alterar o nome quantas vezes quiser sem custo adicional.</p>
+                </div>
+                <div class="faq-item animate-on-scroll animate-delay-1">
+                    <h3><i class="fa-solid fa-circle-question"></i> Preciso de domínio próprio?</h3>
+                    <p>Não é obrigatório, mas recomendado para servidores profissionais. Um domínio próprio passa mais credibilidade e é mais fácil de lembrar.</p>
+                </div>
+                <div class="faq-item animate-on-scroll animate-delay-2">
+                    <h3><i class="fa-solid fa-circle-question"></i> Quanto tempo leva para ativar?</h3>
+                    <p>O connect grátis é ativado instantaneamente. O domínio .com.br pode levar até 48h para ativação completa após o registro.</p>
+                </div>
+                <div class="faq-item animate-on-scroll animate-delay-3">
+                    <h3><i class="fa-solid fa-circle-question"></i> Posso mudar o nome do connect depois?</h3>
+                    <p>Sim! Você pode alterar o subdomínio gratuitamente a qualquer momento pelo painel ou solicitando ao suporte.</p>
+                </div>
+                <div class="faq-item animate-on-scroll animate-delay-4">
+                    <h3><i class="fa-solid fa-circle-question"></i> O domínio .com.br é meu?</h3>
+                    <p>Sim! O domínio é registrado no seu nome (ou CNPJ) e você tem total controle sobre ele.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <i class="fa-solid fa-server logo-icon"></i>
+                    LANZONI<span>HOST</span>
+                </div>
+                <p>Hospedagem gamer de alta performance para servidores FiveM.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <a href="index.html">Início</a>
+                <a href="fivem.html">Planos FiveM</a>
+                <a href="connect.html">Connect</a>
+                <a href="keys.html">Keys</a>
+            </div>
+            <div class="footer-links">
+                <h4>Suporte</h4>
+                <a href="https://discord.gg/SEU_LINK" target="_blank"><i class="fa-brands fa-discord"></i> Discord</a>
+                <a href="https://wa.me/5511999999999" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                <a href="#">Termos de Uso</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Lanzoni Host. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
